@@ -1,6 +1,5 @@
 package com.maple.spring.enable;
 
-import org.springframework.boot.autoconfigure.AutoConfigurationImportSelector;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 

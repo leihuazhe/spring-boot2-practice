@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * @author maple 2018.10.03 12:46 PM
  */
-@EnableAutoConfiguration
+@EnableAutoConfiguration/*(exclude = {HelloWorldAutoConfiguration.class})*/
 public class ApplicationMain {
 
     public static void main(String[] args) {
