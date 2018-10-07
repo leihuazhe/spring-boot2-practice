@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.maple.spring.initializer.HelloWorldApplicationContextInitializer
+org.springframework.boot.SpringApplicationRunListener=\
+com.maple.spring.listener.HelloSpringApplicationRunListener
+org.springframework.context.ApplicationListener=\
+com.maple.spring.listener.BeforeConfigFileApplicationListener
+
+#com.maple.spring.initializer.AfterHelloWorldApplicationContextInitializer,\
